@@ -23,6 +23,7 @@
         <div class="container-fluid p-0">
             <?php
                 include_once("includes/about.php");
+                include_once("includes/about.php");
                 include_once("includes/education.php");
                 include_once("includes/experience.php");
                 include_once("includes/skills.php");
