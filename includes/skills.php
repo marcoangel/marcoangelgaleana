@@ -4,18 +4,14 @@
         <h2 class="mb-5">Skills </h2>
         <div class="subheading mb-3">Programming tools and languages</div>
         <ul class="list-inline dev-icons">
-            <li class="list-inline-item"><i class="fab fa-cuttlefish"></i></li>
-            <li class="list-inline-item"><i class="fab fa-java"></i></li>
             <li class="list-inline-item"><i class="fab fa-linux"></i></li>
-            <li class="list-inline-item"><i class="fab fa-android"></i></li>
-            <li class="list-inline-item"><i class="fas fa-database"></i></li>
-            <li class="list-inline-item"><i class="fab fa-php"></i></li>
-            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-            <li class="list-inline-item"><i class="fab fa-js"></i></li>
-            <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+            <li class="list-inline-item"><i class="fab fa-java"></i></li>
             <li class="list-inline-item"><i class="fab fa-node"></i></li>
-            <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+            <li class="list-inline-item"><i class="fab fa-python"></i></li>
+            <li class="list-inline-item"><i class="fab fa-php"></i></li>
+            <li class="list-inline-item"><i class="fab fa-cuttlefish"></i></li>
+            <li class="list-inline-item"><i class="fas fa-database"></i></li>
+            
             <li class="list-inline-item"><i class="fas fa-asterisk"></i></li>
             <li class="list-inline-item"><i class="fas fa-tty"></i></li>
             <li class="list-inline-item"><i class="fas fa-broadcast-tower"></i></li>

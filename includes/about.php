@@ -12,9 +12,8 @@
         <p class="lead mb-5">6 years of experience in the telecommunications area in the largest company in Mexico, with skills in programming and computer security and multiple certifications.</p>
         <div class="social-icons">
             <a class="social-icon" href="https://www.linkedin.com/in/marco-antonio-angel-galeana-887998b2/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a class="social-icon" href="#!"><i class="fab fa-github" target="_blank"></i></a>
+            <a class="social-icon" href="https://github.com/marcoangel/" target="_blank"><i class="fab fa-github"></i></a>
             <a class="social-icon" href="https://twitter.com/marcoangelgalea" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a class="social-icon" href="https://www.facebook.com/angelgaleana/" target="_blank"><i class="fab fa-facebook-f"></i></a>
         </div>
     </div>
 </section>
