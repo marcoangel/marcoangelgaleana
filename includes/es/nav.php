@@ -15,7 +15,7 @@
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#slider">Portafolio</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="blog/index.php">Blog</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../">English</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="?lang=en">English</a></li>
         </ul>
     </div>
 </nav>

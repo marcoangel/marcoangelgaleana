@@ -14,7 +14,7 @@
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Certifications</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#slider">Portfolio</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="es/">Español</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="?lang=es">Español</a></li>
         </ul>
     </div>
 </nav>
