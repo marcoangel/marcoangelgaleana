@@ -39,19 +39,19 @@
         }
 
         public function setName($name){
-            $this->name=$name
+            $this->name=$name;
         }
 
         public function setPhone()){
-            $this->phone=$phone
+            $this->phone=$phone;
         }
 
         public function setMail($mail){
-            $this->mail=$mail
+            $this->mail=$mail1;
         }
 
         public function setMessage($message){
-            $this->message=$message
+            $this->message=$message;
         }
     }
 ?>

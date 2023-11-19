@@ -33,81 +33,51 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-
-document.getElementById('phone').addEventListener('input', function(e){
-    var number=e.srcElement.value;
-    switch(number.length){
-        case 3:
-            number+="-";
-            break;
-    case 7:
-        number+="-";
-        break;
-    }
-    document.getElementById('phone').value=number;
-});
-
-
-
-document.getElementById("submitButton").addEventListener("click", function(){
+document.getElementById("contactForm").addEventListener("submit", (e)=>{
+    e.preventDefault();
     var nombre = document.getElementById("name");
     var email = document.getElementById("email");
     var phone = document.getElementById("phone");
     var message = document.getElementById("message");
-    var name_required = document.getElementById("name_required");
-    var email_required = document.getElementById("email_required");
-    var phone_required = document.getElementById("phone_required");
-    var message_required = document.getElementById("message_required");
     var formData = new FormData();
-    name_required.style.display="none";
-    email_required.style.display="none";
-    phone_required.style.display="none";
-    message_required.style.display="none";
-
-    if(nombre.value==""){
-        name_required.style.display="inline";
-    }
-    else if(email.value==""){
-        email_required.style.display="inline";
-        //document.getElementById("email_invalid").style.display="inline";
-    }
-    else if(phone.value==""){
-        phone_required.style.display="inline";
-    }
-    else if(message.value==""){
-        message_required.style.display="inline";
-    }
-    else{
-        formData.append("name", nombre.value);
-        formData.append("email", email.value);
-        formData.append("phone", phone.value);
-        formData.append("message", message.value);
-        enviaphp(formData);
-    }
+    var icon;
+    formData.append("name", nombre.value);
+    formData.append("email", email.value);
+    formData.append("phone", phone.value);
+    formData.append("message", message.value);
+    enviaphp(formData, "POST", "php/contact.php", function(e){
+        jsonresponse = JSON.parse(e.responseText);
+        var alerticon=document.getElementById("alerticon");
+        if(jsonresponse.status==true)
+            icon='<i class="fas fa-circle rounded me-2" style="color: #008000;"></i>';
+        else icon='<i class="fas fa-circle rounded me-2" style="color: #ff0000;"></i>';
+        alerttoad("Contacto", jsonresponse.message, icon);
+        document.getElementById("contactForm").reset();
+    });
 });
 
 function parceNumber(){
 
 }
 
-function enviaphp(formData){
-    var nombre = document.getElementById("name");
-    var email = document.getElementById("email");
-    var phone = document.getElementById("phone");
-    var message = document.getElementById("message");
+function enviaphp(formData, method, link, functionrequest){
     var objXMLHttpRequest = new XMLHttpRequest();
     objXMLHttpRequest.onreadystatechange = function(){
         if(objXMLHttpRequest.readyState == 4 && objXMLHttpRequest.status == 200) {
-                alert(objXMLHttpRequest.responseText);
-                if(objXMLHttpRequest.responseText=="1"){
-                    nombre.value="";
-                    email.value="";
-                    phone.value="";
-                    message.value="";
-                    aler("Mensaje enviado. Gracias.");
-                }
+            functionrequest(objXMLHttpRequest);
         }
     }
-    objXMLHttpRequest.open('POST', 'php/contact.php');
+    objXMLHttpRequest.open(method, link);
     objXMLHttpRequest.send(formData);
+}
+
+function alerttoad(title, message, icon){
+    document.getElementById("alertmessage").innerHTML=message;
+    document.getElementById("alertitle").innerHTML=title;
+    document.getElementById("alerticon").innerHTML=icon;
+    let date = new Date();
+    document.getElementById("alerttime").innerHTML=date.getHours() + date.getMinutes();
+    var toast = new bootstrap.Toast(document.getElementById('alert'));
+    toast.show()
+
 }

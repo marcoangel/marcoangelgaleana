@@ -25,10 +25,20 @@
                 include_once("includes/".$_SESSION['lang']."/education.php");
                 include_once("includes/".$_SESSION['lang']."/experience.php");
                 include_once("includes/".$_SESSION['lang']."/skills.php");
-                include_once("includes/".$_SESSION['lang']."/awards.php");
-                include_once("includes/".$_SESSION['lang']."/slider.php");
                 include_once("includes/".$_SESSION['lang']."/contact.php");
             ?>
+            <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                <div id="alert" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <div id="alerticon"></div>
+                        <strong class="me-auto" id="alertitle"></strong>
+                        <small class="text-muted" id="alerttime"></small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body" id="alertmessage">
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>

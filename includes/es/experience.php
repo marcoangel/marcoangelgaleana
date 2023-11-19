@@ -6,7 +6,7 @@
             <div class="flex-grow-1">
                 <h3 class="mb-0">Ingeniero en telecomunicaciones </h3>
                 <div class="subheading mb-3">Teléfonos de México S.A.B. de C.V. </div>
-                <p>Como técnico en soporte en Telmex, me encargo del mantenimiento de los equipos de conmutación y transmisión de la empresa, así como los enlaces de fibra óptica corporativos, luz y fuerza de las centrales de comunicaciones.</p>
+                <p>Realizar mantenimiento a la infraestructura de fibra óptica de la compañía Teléfonos de México.</p>
             </div>
             <div class="flex-shrink-0"><span class="text-primary">Septiembre 2015 - Actual</span></div>
         </div>
@@ -14,7 +14,7 @@
             <div class="flex-grow-1">
                 <h3 class="mb-0">Backend Developer</h3>
                 <div class="subheading mb-3">Freelancer</div>
-                <p>Creador de sitios web con html, css3, js para empresas de forma independiente.</p>
+                <p>Desarrollador backend.</p>
             </div>
             <div class="flex-shrink-0"><span class="text-primary">Julio 2021 - Actual</span></div>
         </div>
@@ -22,7 +22,7 @@
             <div class="flex-grow-1">
                 <h3 class="mb-0">Creador de cursos en Udemy</h3>
                 <div class="subheading mb-3">Udemy</div>
-                <p>Cuento con diferentes cursos de programación y desarrollo de software los cuales pueden acceder a esos en la plataforma
+                <p>Cuento con diferentes cursos de programación y desarrollo de software los cuales pueden consultar en la plataforma
                 <a href="https://www.udemy.com/user/marco-antonio-angel-galeana/">Udemy</a></p>            
             </div>
             <div class="flex-shrink-0"><span class="text-primary">Marzo 2020 - Actual</span></div>
