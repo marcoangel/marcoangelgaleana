@@ -25,6 +25,7 @@
                 include_once("includes/".$_SESSION['lang']."/education.php");
                 include_once("includes/".$_SESSION['lang']."/experience.php");
                 include_once("includes/".$_SESSION['lang']."/skills.php");
+                include_once("includes/".$_SESSION['lang']."/portafolio.php");
                 include_once("includes/".$_SESSION['lang']."/contact.php");
             ?>
             <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">

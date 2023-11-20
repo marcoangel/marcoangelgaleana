@@ -11,6 +11,7 @@
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experiencia</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portafolio">Portafolio</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="?lang=en">English</a></li>
         </ul>

@@ -76,7 +76,7 @@ function alerttoad(title, message, icon){
     document.getElementById("alertitle").innerHTML=title;
     document.getElementById("alerticon").innerHTML=icon;
     let date = new Date();
-    document.getElementById("alerttime").innerHTML=date.getHours() + date.getMinutes();
+    document.getElementById("alerttime").innerHTML=date.toLocaleTimeString();
     var toast = new bootstrap.Toast(document.getElementById('alert'));
     toast.show()
 
