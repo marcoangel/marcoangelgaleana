@@ -10,6 +10,10 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <!-- Name input-->
+                            
+                        </div>
+                        <div class="form-group">
+                            <!-- Name input-->
                             <input class="form-control" id="name" type="text"  placeholder="Nombre *"  required/>
                         </div>
                         <div class="form-group">
@@ -19,8 +23,8 @@
                         <div class="form-group mb-md-0">
                             <!-- Phone number input-->
                             <input class="form-control" id="phone" type="tel" placeholder="Teléfono *" required />
+                            <input class="form-control" id="lada" type="tel" placeholder="Teléfono *" required />
                         </div>
-                    </div>
                     <div class="col-md-6">
                         <div class="form-group form-group-textarea mb-md-0">
                             <!-- Message input-->

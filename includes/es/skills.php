@@ -6,8 +6,7 @@
         <ul class="list-inline dev-icons">
             <li class="list-inline-item"><i class="fab fa-linux"></i></li>
             <li class="list-inline-item"><i class="fab fa-java"></i></li>
-            <li class="list-inline-item"><i class="fab fa-node"></i></li>
-            <li class="list-inline-item"><i class="fab fa-python"></i></li>
+            <li class="list-inline-item"><i class="fab fa-git"></i></li>
             <li class="list-inline-item"><i class="fab fa-php"></i></li>
             <li class="list-inline-item"><i class="fab fa-cuttlefish"></i></li>
             <li class="list-inline-item"><i class="fas fa-database"></i></li>

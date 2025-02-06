@@ -31,36 +31,40 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-});
-
-document.getElementById("contactForm").addEventListener("submit", (e)=>{
-    e.preventDefault();
-    var nombre = document.getElementById("name");
-    var email = document.getElementById("email");
-    var phone = document.getElementById("phone");
-    var message = document.getElementById("message");
-    var formData = new FormData();
-    var icon;
-    formData.append("name", nombre.value);
-    formData.append("email", email.value);
-    formData.append("phone", phone.value);
-    formData.append("message", message.value);
-    enviaphp(formData, "POST", "php/contact.php", function(e){
-        jsonresponse = JSON.parse(e.responseText);
-        var alerticon=document.getElementById("alerticon");
-        if(jsonresponse.status==true)
-            icon='<i class="fas fa-circle rounded me-2" style="color: #008000;"></i>';
-        else icon='<i class="fas fa-circle rounded me-2" style="color: #ff0000;"></i>';
-        alerttoad("Contacto", jsonresponse.message, icon);
-        document.getElementById("contactForm").reset();
+    const phoneInputField = document.querySelector("#phone");
+    const phoneInput = window.intlTelInput(phoneInputField, {
+        preferredCountries: ["mx", "us", "gb", "ca", "de"],
+        utilsScript:"https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
     });
+
+    document.getElementById("contactForm").addEventListener("submit", (e)=>{
+        e.preventDefault();
+        const name = document.getElementById("name");
+        const email = document.getElementById("email");
+        const phoneNumber = phoneInput.getNumber();
+        const message = document.getElementById("message");
+        var formData = new FormData();
+        var icon;
+        formData.append("name", name.value);
+        formData.append("email", email.value);
+        formData.append("phone", phone.value);
+        formData.append("message", message.value);
+        
+        alert(phoneNumber);
+        senddata(formData, "POST", "php/contact.php", function(e){
+            jsonresponse = JSON.parse(e.responseText);
+            if(jsonresponse.status==true)
+                icon='<i class="fas fa-circle rounded me-2" style="color: #008000;"></i>';
+            else icon='<i class="fas fa-circle rounded me-2" style="color: #ff0000;"></i>';
+            alerttoad("Contacto", jsonresponse.message, icon);
+            document.getElementById("contactForm").reset();
+        });
+    });
+
+    
 });
 
-function parceNumber(){
-
-}
-
-function enviaphp(formData, method, link, functionrequest){
+function senddata(formData, method, link, functionrequest){
     var objXMLHttpRequest = new XMLHttpRequest();
     objXMLHttpRequest.onreadystatechange = function(){
         if(objXMLHttpRequest.readyState == 4 && objXMLHttpRequest.status == 200) {
@@ -79,5 +83,4 @@ function alerttoad(title, message, icon){
     document.getElementById("alerttime").innerHTML=date.toLocaleTimeString();
     var toast = new bootstrap.Toast(document.getElementById('alert'));
     toast.show()
-
 }

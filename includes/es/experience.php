@@ -12,18 +12,18 @@
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
-                <h3 class="mb-0">Backend Developer</h3>
-                <div class="subheading mb-3">Freelancer</div>
+                <h3 class="mb-0">Java Developer</h3>
+                <div class="subheading mb-3">Accenture México</div>
                 <p>Desarrollador backend.</p>
             </div>
-            <div class="flex-shrink-0"><span class="text-primary">Julio 2021 - Actual</span></div>
+            <div class="flex-shrink-0"><span class="text-primary">Marzo 2024 - Actual</span></div>
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
-                <h3 class="mb-0">Creador de cursos en Udemy</h3>
+                <h3 class="mb-0">Creador de cursos</h3>
                 <div class="subheading mb-3">Udemy</div>
                 <p>Cuento con diferentes cursos de programación y desarrollo de software los cuales pueden consultar en la plataforma
-                <a href="https://www.udemy.com/user/marco-antonio-angel-galeana/">Udemy</a></p>            
+                <a href="https://www.udemy.com/user/marco-antonio-angel-galeana/" target="_blank">Udemy</a></p>            
             </div>
             <div class="flex-shrink-0"><span class="text-primary">Marzo 2020 - Actual</span></div>
         </div>
