@@ -6,7 +6,7 @@
             <span class="text-primary">ANGEL</span>
         </h1>
         <div class="subheading mb-5">
-            Playa del Carmen · México · <a href="tel:9988109491">(998) 810-9491</a> ·
+            Playa del Carmen · México · <a href="tel:9988109491">(998) 8109491</a> ·
             <a href="mailto:marcoangelgaleana@outlook.com">marcoangelgaleana@outlook.com</a>
         </div>
         <p class="lead mb-5">5 años de experiencia en el área de telecomunicaciones y redes, con habilidades de seguridad informática, 

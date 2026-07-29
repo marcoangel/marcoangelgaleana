@@ -1,4 +1,3 @@
-<?php include_once("lang.php");?>
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -19,15 +18,15 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <?php include_once("includes/".$_SESSION['lang']."/nav.php");?>
+        <?php include_once("includes/es/nav.php");?>
         <div class="container-fluid p-0">
             <?php
-                include_once("includes/".$_SESSION['lang']."/about.php");
-                include_once("includes/".$_SESSION['lang']."/education.php");
-                include_once("includes/".$_SESSION['lang']."/experience.php");
-                include_once("includes/".$_SESSION['lang']."/skills.php");
-                include_once("includes/".$_SESSION['lang']."/portafolio.php");
-                include_once("includes/".$_SESSION['lang']."/contact.php");
+                include_once("includes/es/about.php");
+                include_once("includes/es/education.php");
+                include_once("includes/es/experience.php");
+                include_once("includes/es/skills.php");
+                include_once("includes/es/portafolio.php");
+                include_once("includes/es/contact.php");
             ?>
             <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
                 <div id="alert" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
