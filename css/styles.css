@@ -59,6 +59,7 @@ body {
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  padding-bottom: 60px;
 }
 
 hr {
@@ -10995,5 +10996,51 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+}
+
+footer {
+  position: fixed;   /* Lo fija con respecto a la pantalla */
+  bottom: 0;         /* Lo pega en el borde inferior */
+  left: 0;           /* Lo alinea a la izquierda */
+  width: 100%;       /* Hace que abarque todo el ancho */
+  
+  /* Estilos opcionales para que se vea bien */
+  background-color: #17202A !important;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  z-index: 1000;     /* Asegura que quede por encima de otros elementos */
+}
+
+
+
+@media (max-width: 768px) {
+  .layout-container {
+    /* Cambiamos a 1 sola columna en pantallas pequeñas */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+  }
+
+  .sidebar {
+    grid-column: 1;
+    grid-row: 1; /* El menú pasa a la parte superior */
+    height: auto;
+  }
+
+  .main-content {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .footer {
+    grid-column: 1; /* Ocupa todo el ancho en móvil */
+    grid-row: 3;
+    
+    /* Cambiamos las columnas a una sola fila vertical */
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding: 20px 15px;
   }
 }

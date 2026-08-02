@@ -18,15 +18,15 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <?php include_once("includes/es/nav.php");?>
+        <?php include_once("includes/nav.php");?>
         <div class="container-fluid p-0">
             <?php
-                include_once("includes/es/about.php");
-                include_once("includes/es/education.php");
-                include_once("includes/es/experience.php");
-                include_once("includes/es/skills.php");
-                include_once("includes/es/portafolio.php");
-                include_once("includes/es/contact.php");
+                include_once("includes/about.php");
+                include_once("includes/education.php");
+                include_once("includes/experience.php");
+                include_once("includes/skills.php");
+                include_once("includes/portafolio.php");
+                include_once("includes/contact.php");
             ?>
             <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
                 <div id="alert" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
@@ -41,6 +41,7 @@
                 </div>
             </div>
         </div>
+        <?php include_once("includes/footer.php");?>
         <!--plugin lada-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
         <!-- Bootstrap core JS-->
