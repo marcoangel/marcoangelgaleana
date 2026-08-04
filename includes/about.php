@@ -7,10 +7,8 @@
         </h1>
         <div class="subheading mb-5">
             Playa del Carmen · México · <a href="tel:9988109491">(998) 8109491</a> ·
-            <a href="mailto:marcoangelgaleana@outlook.com">marcoangelgaleana@outlook.com</a>
+            <a href="mailto:marcoangelgaleana@outlook.com">contacto@marcoangelgaleana.com</a>
         </div>
-        <p class="lead mb-5">5 años de experiencia en el área de telecomunicaciones y redes, con habilidades de seguridad informática, 
-            programación en distintas plataformas y cuento con los certificados que avalan dichas habilidades.</p>
         <div class="social-icons">
             <a class="social-icon" href="https://www.linkedin.com/in/marco-antonio-angel-galeana-887998b2/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             <a class="social-icon" href="https://github.com/marcoangel/" target="_blank"><i class="fab fa-github"></i></a>

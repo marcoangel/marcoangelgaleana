@@ -7,13 +7,12 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Acerca de</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experiencia</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portafolio">Portafolio</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="?lang=en">English</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skils</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portafolio">Projects</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
         </ul>
     </div>
 </nav>
