@@ -22,13 +22,13 @@
                         </div>
                         <div class="form-group mb-md-0">
                             <!-- Phone number input-->
-                            <input class="form-control" id="phone" type="tel" placeholder="Teléfono *" required />
                             <input class="form-control" id="lada" type="tel" placeholder="Teléfono *" required />
                         </div>
-                    <div class="col-md-6">
-                        <div class="form-group form-group-textarea mb-md-0">
-                            <!-- Message input-->
-                            <textarea class="form-control" id="message" placeholder="Mensaje *" required></textarea>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Mensaje *" required></textarea>
+                            </div>
                         </div>
                     </div>
                 </div>
