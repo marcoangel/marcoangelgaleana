@@ -16,6 +16,9 @@
             <li class="list-inline-item"><i class="fas fa-network-wired"></i></li>
             <li class="list-inline-item"><i class="fas fa-wifi"></i></li>
         </ul>
+        <div class="subheading mb-3">
+            <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/683d273ad3156c8eaf716c1e?variant=dark" alt="roadmap.sh"/></a>
+        </div>
         <div class="subheading mb-3">Certificados</div>
         <ul class="fa-ul mb-0">
             <li>
