@@ -6,13 +6,11 @@
             <span class="text-primary">ANGEL</span>
         </h1>
         <div class="subheading mb-5">
-            Playa del Carmen · México · <a href="tel:9988109491">(998) 8109491</a> ·
             <a href="mailto:marcoangelgaleana@outlook.com">contacto@marcoangelgaleana.com</a>
         </div>
         <div class="social-icons">
             <a class="social-icon" href="https://www.linkedin.com/in/marco-antonio-angel-galeana-887998b2/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             <a class="social-icon" href="https://github.com/marcoangel/" target="_blank"><i class="fab fa-github"></i></a>
-            <a class="social-icon" href="https://twitter.com/marcoangelgalea" target="_blank"><i class="fab fa-twitter"></i></a>
         </div>
     </div>
 </section>

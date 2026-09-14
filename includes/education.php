@@ -19,14 +19,6 @@
             </div>
             <div class="flex-shrink-0"><span class="text-primary">Agosto 2021 - Mayo 2023</span></div>
         </div>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-                <h3 class="mb-0">Verificar Cédula en Portal Oficial  </h3>
-                <div>
-                    <a class="social-icon" href="https://twitter.com/marcoangelgalea" target="_blank"><i class="fa-solid fa-circle-arrow-up">hola</i></a>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 <hr class="m-0" />
